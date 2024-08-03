@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Emote Combiner</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fire Emote Combiner</h1>
+        <select id="platformSelect">
+            <option value="discord">Discord</option>
+            <option value="twitch">Twitch</option>
+            <option value="telegram">Telegram</option>
+        </select>
+
+        <input type="file" id="fileUpload" accept="image/*,video/*">
+        <input type="color" id="colorPicker" value="#ff4500">
+
+        <canvas id="previewCanvas" class="preview"></canvas>
+
+        <button id="downloadButton">Download</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
